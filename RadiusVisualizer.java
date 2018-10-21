@@ -63,10 +63,9 @@ URI url = new URI(
 
 System.out.println(url);
 
-/*
 if (Desktop.isDesktopSupported()) {
   Desktop.getDesktop().browse(url);
 } else {
   System.out.println("Your system may not be supported, try running on the lab machines, or copy/paste this URL into your browser: \n" + url);
 }
-*/
+
